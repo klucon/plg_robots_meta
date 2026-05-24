@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "name": "plg_robots_meta",
+  "type": "plugin",
+  "vendor": "klucon",
+  "extension_id": "klucon/plg_robots_meta",
+  "version": "0.1.0",
+  "display_name": "Robots Meta",
+  "display_name_key": "extensions.name.plg_robots_meta",
+  "description": "Generuje samostatně nastavitelný frontend meta robots tag.",
+  "license": "MIT",
+  "author": {
+    "name": "KLUCON",
+    "url": "https://klucon.cz"
+  },
+  "links": {
+    "homepage": "https://marketplace.klucon.cz",
+    "repository": "https://github.com/klucon/plg_robots_meta"
+  },
+  "compatibility": {
+    "core_min": "0.2.15",
+    "python": ">=3.12"
+  },
+  "package": {
+    "entrypoint": "src.plugins.plg_robots_meta"
+  },
+  "migrations": {
+    "enabled": false,
+    "path": "migrations"
+  },
+  "security": {
+    "capabilities": [
+      "plugin.hooks",
+      "frontend.head"
+    ]
+  },
+  "settings_schema": [
+    {
+      "key": "robots",
+      "type": "text",
+      "label": "Robots",
+      "default": ""
+    }
+  ],
+  "marketplace": {
+    "category": "seo",
+    "tags": [
+      "seo",
+      "robots",
+      "meta"
+    ]
+  },
+  "i18n": {
+    "domain": "plg_robots_meta"
+  },
+  "locales": [
+    "cs_CZ",
+    "en_GB"
+  ],
+  "changelog": "První verze samostatného robots meta pluginu."
+}
