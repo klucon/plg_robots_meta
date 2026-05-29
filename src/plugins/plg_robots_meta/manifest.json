@@ -4,7 +4,7 @@
   "type": "plugin",
   "vendor": "klucon",
   "extension_id": "klucon/plg_robots_meta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "display_name": "Robots Meta",
   "display_name_key": "extensions.name.plg_robots_meta",
   "description": "Generuje samostatně nastavitelný frontend meta robots tag.",
